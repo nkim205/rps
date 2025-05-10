@@ -1,0 +1,6 @@
+rocks.svg icon:
+    https://www.flaticon.com/free-icon-font/rocks_17906145?page=1&position=1&term=rock&origin=search&related_id=17906145
+paper.svg icon:
+    https://www.flaticon.com/free-icon-font/document_3914193?page=1&position=1&term=paper&origin=search&related_id=3914193
+scissors.svg icon:
+    https://www.flaticon.com/free-icon-font/scissors_3914127?page=1&position=1&term=scissor&origin=search&related_id=3914127
