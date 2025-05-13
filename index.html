@@ -8,16 +8,24 @@
     <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-    <div id="title">Welcome to Nathan's game of Rock-Paper-Scissors!</div>
+    <div id="title">Welcome to Nathan's game of Rock-Paper-Scissor!</div>
     <div id="description">Choose your fate below</div>
     <div id="image-container">
-        <!-- <div id="tempPopup" onclick="choice()"><button><img src="./images/rocks.svg"></button></div> -->
-        <button id="tempPopup" onclick="choice()"><img src="./images/rocks.svg"></button>
-        <button><img src="./images/paper.svg"></button>
-        <button><img src="./images/scissors.svg"></button>
+        <button id="rockBtn" onclick="chooseRock()"><img src="./images/rock.svg"></button>
+        <button id="paperBtn" onclick="choosePaper()"><img src="./images/paper.svg"></button>
+        <button id="scissorBtn" onclick="chooseScissor()"><img src="./images/scissor.svg"></button>
     </div>
 
-    <!-- Popups -->
-    <div id="popup">A choice was made</div>
+    <!-- Popup window -->
+    <div class="gameResult" id="gameResult">
+        <h1 class="resultItem">Game result</h1>
+        <h3 id="resultText" class="resultItem">YOU SHOULDN'T BE SEEING THIS OMG WHAT HAVE I DONE</h3>
+
+        <div id="imageBox" class="resultItem">
+            <img src="./images/eye.svg" id="opponentImage">
+        </div>
+
+        <button id="closeBtn" onclick="closeWindow()">Play again</button>
+    </div>
 </body>
 </html>

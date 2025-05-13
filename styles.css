@@ -6,6 +6,7 @@
     background-color: #ffdf88;
     color: #FF006E;
     text-decoration: none;
+    text-align: center;
 }
 
 #title {
@@ -49,9 +50,53 @@ img {
     width: 100%;
 }
 
-#popup {
+.gameResult, .resultItem {
+    background: #FFFFFF;
+}
+
+.resultItem {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gameResult {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    align-items: center;
+    gap: 1rem;
     visibility: hidden;
-    font-size: 1000%;
+}
+
+h1 {
+    font-size: 250%;
     font-weight: 1000;
-    text-align: center;
+    margin-top: 3%;
+}
+
+#textBox {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+}
+
+#opponentImage {
+    background-color: #FFFFFF;
+    width: 50%;
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+#closeBtn {
+    margin-bottom: 3%;
+    width: 50%;
+    font-size: 115%;
+    padding: 2%;
+    background-color: #e6e6e6;
+    border-radius: 25%;
 }
