@@ -46,7 +46,7 @@ button:not(:hover) {
     transition: 333ms;
 }
 
-img {
+.staticImage {
     width: 100%;
 }
 
