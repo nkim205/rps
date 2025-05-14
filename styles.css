@@ -33,21 +33,21 @@
     padding: 5% 3% 5% 3%;
 }
 
-button {
+.choiceBtn {
     width: 10%;
 }
 
-button:hover {
+.choiceBtn:hover {
     transform: scale(1.075);
     transition: 333ms;
 }
 
-button:not(:hover) {
+.choiceBtn:not(:hover) {
     transition: 333ms;
 }
 
 .staticImage {
-    width: 100%;
+    width: 10vw;
 }
 
 .gameResult, .resultItem {
@@ -87,7 +87,7 @@ h1 {
 
 #opponentImage {
     background-color: #FFFFFF;
-    width: 50%;
+    width: 15vw;
     margin: 5%;
     margin-bottom: 0;
 }
@@ -99,4 +99,5 @@ h1 {
     padding: 2%;
     background-color: #e6e6e6;
     border-radius: 25%;
+    visibility: hidden;
 }
